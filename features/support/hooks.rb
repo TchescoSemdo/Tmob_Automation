@@ -8,6 +8,6 @@ Before do
       page.save_screenshot(screenshot_path)
       attach(screenshot_path, 'image/png')
     end
-  end
+end
   
 

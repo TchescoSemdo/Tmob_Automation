@@ -1,6 +1,7 @@
 module LoginLocators
-  EMAIL_INPUT   = { css: 'input[name="username"]' }.freeze
-  PASSWORD_INPUT = { css: 'input[name="password"]' }.freeze
-  LOGIN_BUTTON  = { css: 'button[type="submit"]' }.freeze
-  ERROR_MESSAGE = { css: '.error-message' }.freeze
+  EMAIL_INPUT = { class: '.amplify-input.amplify-field-group__control[placeholder="Email"]' }.freeze
+  PASSWORD_INPUT = { class: '.amplify-input.amplify-field-group__control[placeholder="Senha"]' }.freeze
+  LOGIN_BUTTON  = { class: '.amplify-button.amplify-field-group__control.amplify-button--primary.amplify-button--fullwidth[type="submit"]' }.freeze
 end
+
+

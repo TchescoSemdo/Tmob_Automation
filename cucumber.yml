@@ -1,0 +1,3 @@
+
+default: --format pretty
+sequencia: features/Login.feature features/Atendimento.feature
