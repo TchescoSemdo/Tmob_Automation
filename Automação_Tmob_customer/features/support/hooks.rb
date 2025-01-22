@@ -8,6 +8,12 @@ Before do
       page.save_screenshot(screenshot_path)
       attach(screenshot_path, 'image/png')
     end
-  end
+end
+
+Before('@preserve_session') do
+  Capybara.reset_sessions!
+  page.driver.browser.manage.delete_all_cookies
+end
+
   
 

@@ -7,4 +7,6 @@ gem 'capybara'               # API para automação de navegação
 gem 'parallel_tests'         # Execução paralela de testes(EX. Dois navegadores)
 gem 'faker'                  # Geração de dados aleatórios (Ficiticios)
 gem 'cucumber', '~> 7.0'
+gem 'win32ole'
+
 
