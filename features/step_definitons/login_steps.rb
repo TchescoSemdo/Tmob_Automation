@@ -23,9 +23,6 @@ Then('devo ver na tela {string}') do |mensagem|
 end
 
 
-
-
-
 Quando('clico no botão de login') do
   @login_page.clicar_login
 end

@@ -1,8 +1,6 @@
-module HometoLocators
-    ATENDIMENTO_BTN = { class: 'ant-typography css-12jzuas[h3="Atendimento"]' }.freeze    
-end
-  
 module AtendimentoLocators
-    NOVO_CLIENTE_BTN = { class: 'ant-btn css-12jzuas ant-btn-primary[type="button"]' }.freeze    
+    ATENDIMENTO_BTN = { xpath: '//*[@id="recentAccess"]/div[1]/div/div[1]' }
+    NOVO_CLIENTE_BTN = { css: 'button.ant-btn.ant-btn-primary span', text: 'Novo Cliente' }
+    PESQUISA_DE_CLIENTES_HEADER = { text: 'Pesquisa de Clientes' }
+    FORMULARIO_NOVO_CLIENTE_HEADER = { text: 'Cadastro de Cliente' }
 end
-
